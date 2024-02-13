@@ -1,0 +1,21 @@
+version: '3'
+services:
+  database:
+    image: postgres
+    ports:
+    - 6432:5432
+    environment:
+      POSTGRES_DB: wealthify
+      POSTGRES_USER: wealthify
+      POSTGRES_PASSWORD: wealthify
+  service:
+    build: .
+    ports:
+    - 9090:8080
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://database/wealthify
+      SPRING_DATASOURCE_USERNAME: wealthify
+      SPRING_DATASOURCE_PASSWORD: wealthify
+      SERVER_SERVLET_CONTEXT_PATH: /wealthify
+    depends_on:
+    - database
