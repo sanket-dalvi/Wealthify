@@ -1,6 +1,23 @@
 # Wealthify
 #### Personal Finance Management System
+# Welcome to Wealthify
 
+Welcome to **Wealthify** - a comprehensive Personal Finance Management System built with Java, Spring Boot, Swagger and PostgreSQL!
+
+## About Wealthify
+
+**Wealthify** is designed to empower users to efficiently manage their personal finances, providing a suite of features to track expenses, set financial goals, manage balances, and more. With a user-friendly interface and robust backend powered by Spring Boot and PostgreSQL, Wealthify offers a seamless experience for users to take control of their finances.
+
+## Key Features
+
+- **User Management**: Register, login, update details, and change passwords securely.
+- **Balance Management**: Track and manage balances across different modes.
+- **Expense and Gain Tracking**: Record and monitor both current and upcoming expenses and gains.
+- **Financial Goal Setting**: Set and track progress towards achieving financial goals.
+- **Monthly Spending Threshold**: Automatically track monthly spending thresholds with customizable alerts.
+- **Notes and Tags**: Create financial notes and assign tags for easy reference and querying.
+
+---
 
 ## Tech Stack Used 
 * Java 15
